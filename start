@@ -1,0 +1,6 @@
+#!/bin/bash
+#SBATCH --partition=main
+#SBATCH -n 1
+#SBATCH --job-name=Ising32
+
+srun ./ising_metropolis
